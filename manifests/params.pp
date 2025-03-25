@@ -239,6 +239,7 @@ class salt::params {
   $minion_state_output = 'full'
   $minion_master_finger = ''
   $minion_verify_master_pubkey_sign = false
+  $minion_always_verify_signature = false
 
   # minion thread settings
   $minion_multiprocessing = true

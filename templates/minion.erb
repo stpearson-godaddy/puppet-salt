@@ -506,6 +506,11 @@ master_finger: <%= @minion_master_finger %>
 # in auth-replies.
 verify_master_pubkey_sign: <%= @minion_verify_master_pubkey_sign %>
 
+# If verify_master_pubkey_sign is enabled, the signature is only verified if
+# the public-key of the master changes. If the signature should always be verified,
+# this can be set to True.
+always_verify_signature: <%= @minion_always_verify_signature %>
+
 ######         Thread settings        #####
 ###########################################
 # Disable multiprocessing support, by default when a minion receives a
