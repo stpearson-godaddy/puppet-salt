@@ -54,6 +54,7 @@ class salt::master (
   $master_file_recv             = $salt::params::master_file_recv,
   $master_file_recv_max_size    = $salt::params::master_file_recv_max_size,
   $master_sign_pub_messages     = $salt::params::master_sign_pub_messages,
+  $master_sign_pubkey           = $salt::params::master_sign_pubkey,
   # master module management
   $master_cython_enable         = $salt::params::master_cython_enable,
   # master state system settings
