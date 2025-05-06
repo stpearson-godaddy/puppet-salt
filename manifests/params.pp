@@ -140,6 +140,7 @@ class salt::params {
   $master_file_recv = false
   $master_file_recv_max_size = 100
   $master_sign_pub_messages = false
+  $master_sign_pubkey = false
 
   # master module management
   $master_cython_enable = false
